@@ -25,7 +25,7 @@ def fibonacci_it(n):
     return response
 
 #Optimizing processing time using memoization
-#This technique stores results of function calls and returns cached results when the function is called againg
+#This technique stores results of function calls and returns cached results when the function is called again
 
 memo = dict()
 def fibonacci_mem(n):
