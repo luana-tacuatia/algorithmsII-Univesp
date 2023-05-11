@@ -10,3 +10,9 @@ def factorial(n):
         response = n * factorial(n - 1)
         return response
 
+#Implementing iteration instead of recursion
+def factorial_it(n):
+    response = 1
+    for k in range(2, n+1):
+        response *= k
+    return response
