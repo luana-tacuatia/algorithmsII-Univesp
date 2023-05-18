@@ -3,7 +3,7 @@ import time
 #Calculate the n-th term of the Fibonacci sequence using recursion
 def fibonacci_rec(n):
     if n < 0 or isinstance(n, float):
-        print('To calculate the n-th term of Fibonacci sequence, it must be a natural one. '
+        print('To calculate the n-th term of Fibonacci sequence, it must be a natural number. '
               '\nTry with whole numbers greater than or equal to zero!')
     elif n == 0:
         return 0
